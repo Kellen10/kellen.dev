@@ -45,6 +45,20 @@ header p {
     margin-bottom: 25px;
 }
 
+header p a {
+    color: #f5f5ff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(245, 245, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+header p a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+
+
 .social-links {
     text-align: center;
     margin-top: 20px;
